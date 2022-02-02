@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/perooru.practice-show-and-hide",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve pWH9RPGvA9MikkDdVZCU --open"
+  }
+}

@@ -1,0 +1,44 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">{title}</h1>
+		<h3>Write JavaScript, HTML, and CSS code, and preview the output in the interactive code editor.</h3>
+
+		<div class="slds-p-top_large">
+
+			<div class="slds-grid slds-wrap">
+				<div class="slds-col slds-size_1-of-1 slds-m-bottom_large">
+					<lightning-button variant="brand-outline" label="Brand Outline" title="Primary action with lighter look"
+						onclick={viewAccordionDetails} class=""></lightning-button>
+				</div>
+
+				<div class="slds-col slds-size_1-of-1 slds-p-around_medium slds-box slds-m-bottom_large"
+					if:true={showAccordionDetails}>
+					<span>1</span>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<div class="slds-p-top_large">
+
+			<div class="slds-grid slds-wrap">
+				<div class="slds-col slds-size_1-of-1 slds-m-bottom_large">
+					<lightning-button variant="brand-outline" label="Brand Outline" title="Primary action with lighter look"
+						onclick={viewChildContainer}></lightning-button>
+				</div>
+
+				<div
+					class="slds-col slds-size_1-of-1 slds-p-around_medium slds-box slds-m-bottom_large child-container slds-hide">
+					<span>1</span>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+</template>
